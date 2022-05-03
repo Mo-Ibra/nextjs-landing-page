@@ -9,7 +9,7 @@ function Card({ name, price, isActive = false, features, badge = null}) {
             <hr className="my-5" />
             {
                 features.map((feature) => (
-                    <div className="flex items-center my-2" key={feature}>
+                    <div className="flex items-center my-2" key={feature }>
                         <AiFillCheckCircle className={` ${isActive ? 'text-blue-500' : 'text-blue-500'} text-lg mr-2`} />
                         <p className='text-gray-500'>{feature}</p>
                     </div>
