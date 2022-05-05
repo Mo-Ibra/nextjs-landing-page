@@ -7,7 +7,7 @@ function Traffic() {
     return (
         <section className="py-20">
             <div className="container mx-auto px-10">
-                <div className="grid grid-cols-2">
+                <div className="grid md:grid-cols-1 lg:grid-cols-2">
                     <div>
                         <span className="text-blue-500 font-bold drop-shadow-md">Traffic</span>
                         <h3 className="text-5xl text-gray-900 font-bold my-2 drop-shadow-md">Stage reporting with 50k queries.</h3>

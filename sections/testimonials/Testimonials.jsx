@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from './testimonials.module.scss';
 
-import TeamImg1 from '../../assets/images/team/1.png';
+import TeamImg1 from '../../assets/images/testimonials/1.png';
 
 import { AiFillStar } from 'react-icons/ai';
 

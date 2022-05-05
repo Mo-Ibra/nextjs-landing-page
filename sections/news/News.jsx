@@ -12,6 +12,7 @@ import 'swiper/css';
 import { Autoplay } from 'swiper';
 
 import { useMediaQuery } from 'react-responsive';
+import Title from '../../helpers/Title';
 
 function News({ backgroundColor }) {
 
@@ -20,6 +21,10 @@ function News({ backgroundColor }) {
     return (
         <section className={`py-10 ${backgroundColor}`}>
             <div className="container mx-auto px-10">
+                <Title
+                    header="Latest blog posts"
+                    description="Different layouts and styles for team sections."
+                />
                 <Swiper
                     spaceBetween={50}
                     slidesPerView={isTabletOrMobile ? 1 : 3}

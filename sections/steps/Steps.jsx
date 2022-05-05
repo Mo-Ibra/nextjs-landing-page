@@ -1,12 +1,18 @@
 import Image from 'next/image';
 import { AiOutlineFileSearch, AiOutlineSmile, AiOutlineShoppingCart, AiOutlineSound } from 'react-icons/ai';
+import Title from '../../helpers/Title';
+
 import ShapesImg from '../../assets/images/shapes/1.png';
 
 function Steps() {
     return (
         <section className="py-32 bg-slate-100 relative z-10">
             <div className="container mx-auto px-10">
-                <div className="grid grid-cols-4 gap-8">
+                <Title
+                    header="Designed with applicant."
+                    description="The full monty spiffing good time no biggie cack grub fantastic."
+                />
+                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div className="text-center bg-white hover:shadow-2xl shadow-lg duration-300 cursor-pointer border border-slate-100 py-8 px-5 rounded-sm">
                         <div className='w-14 h-14 bg-blue-500 rounded-md mx-auto relative my-5 shadow-lg'>
                             <AiOutlineFileSearch className='mx-auto text-3xl my-2 text-white absolute left-3 top-1' />
@@ -37,7 +43,7 @@ function Steps() {
                     </div>
                 </div>
             </div>
-            <div className="absolute bottom-0 right-0" style={{zIndex: '-1'}}>
+            <div className="absolute bottom-0 right-0" style={{ zIndex: '-1' }}>
                 <Image src={ShapesImg} alt="Shapes" />
             </div>
         </section>

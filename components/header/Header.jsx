@@ -10,7 +10,7 @@ function Header() {
     return (
         <header className='py-20'>
             <div className="container mx-auto px-10">
-                <div className="grid grid-cols-2 gap-8">
+                <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className='mt-20'>
                         <span className='text-blue-500 font-semibold text-sm'>Welcome To Appie</span>
                         <h3 className='text-6xl font-bold text-gray-800 my-2'>Manage it all, in this all new system.</h3>
@@ -32,10 +32,10 @@ function Header() {
                     </div>
                     <div className={`${styles.thumbs}`}>
                         <div>
-                            <Image src={HeaderImg1} alt="Header" />
+                            <Image src={HeaderImg1} alt="Header" className={styles.headerImg1} />
                         </div>
                         <div className="absolute top-28 right-0 shadow-lg">
-                            <Image src={HeaderImg2} alt="Header" />
+                            <Image src={HeaderImg2} alt="Header" className={styles.headerImg2} />
                         </div>
                     </div>
                 </div>
