@@ -6,7 +6,7 @@ import ShapesImg from '../../assets/images/shapes/1.png';
 
 function Steps() {
     return (
-        <section className="py-32 bg-slate-100 relative z-10">
+        <section className="py-32 bg-slate-100 relative z-10" id='steps'>
             <div className="container mx-auto px-10">
                 <Title
                     header="Designed with applicant."

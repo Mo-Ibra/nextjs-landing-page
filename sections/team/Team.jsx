@@ -14,7 +14,7 @@ import Title from '../../helpers/Title';
 
 function Team() {
     return (
-        <section className='py-10'>
+        <section className='py-10' id='team'>
             <div className="container mx-auto px-10">
                 <Title
                     header="Meet our Team Members"

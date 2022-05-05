@@ -6,7 +6,7 @@ import Title from '../../helpers/Title';
 
 function Plans() {
     return (
-        <section className="py-32 relative z-10">
+        <section className="py-32 relative z-10" id='plans'>
             <div className="container mx-auto px-10">
                 <Title
                     header="Choose your plan"

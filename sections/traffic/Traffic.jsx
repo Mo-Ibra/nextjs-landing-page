@@ -1,11 +1,11 @@
-import TrafficImg from '../../assets/images/sections/2.png';
+import TrafficImg from '../../assets/images/sections/4.png';
 import Image from 'next/image';
 
 import { AiFillCheckCircle } from 'react-icons/ai';
 
 function Traffic() {
     return (
-        <section className="py-20">
+        <section className="py-20" id='traffic'>
             <div className="container mx-auto px-10">
                 <div className="grid md:grid-cols-1 lg:grid-cols-2">
                     <div>

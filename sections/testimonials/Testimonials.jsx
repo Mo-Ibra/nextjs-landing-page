@@ -12,7 +12,7 @@ import { Autoplay } from 'swiper';
 
 function Testimonials() {
     return (
-        <section className={styles.testimonials}>
+        <section className={styles.testimonials} id='testimonials'>
             <div className="container mx-auto px-10 text-center text-white">
                 <Swiper
                     spaceBetween={50}

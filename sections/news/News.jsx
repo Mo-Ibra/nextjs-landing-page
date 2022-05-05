@@ -2,8 +2,6 @@
 import NewsImage1 from '../../assets/images/news/1.jpg';
 import NewsImage2 from '../../assets/images/news/2.jpg';
 import NewsImage3 from '../../assets/images/news/3.jpg';
-import NewsImage4 from '../../assets/images/news/4.jpg';
-import NewsImage5 from '../../assets/images/news/5.jpg';
 
 import Card from './card/Card';
 
@@ -19,7 +17,7 @@ function News({ backgroundColor }) {
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 980px)' });
 
     return (
-        <section className={`py-10 ${backgroundColor}`}>
+        <section className={`py-10 ${backgroundColor}`} id='news'>
             <div className="container mx-auto px-10">
                 <Title
                     header="Latest blog posts"
@@ -43,10 +41,10 @@ function News({ backgroundColor }) {
                         <Card imageUrl={NewsImage3} badge="India" title="Do you really understand the concept of product value?" author="Jane Martin" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card imageUrl={NewsImage4} badge="France" title="Do you really understand the concept of product value?" author="Jane Martin" />
+                        <Card imageUrl={NewsImage1} badge="France" title="Do you really understand the concept of product value?" author="Jane Martin" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Card imageUrl={NewsImage5} badge="Landscape" title="Do you really understand the concept of product value?" author="Jane Martin" />
+                        <Card imageUrl={NewsImage2} badge="Landscape" title="Do you really understand the concept of product value?" author="Jane Martin" />
                     </SwiperSlide>
                 </Swiper>
             </div>

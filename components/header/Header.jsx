@@ -8,7 +8,7 @@ import HeaderImg2 from '../../assets/images/header/2.png';
 
 function Header() {
     return (
-        <header className='py-20'>
+        <header className='py-20' id='header'>
             <div className="container mx-auto px-10">
                 <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className='mt-20'>
