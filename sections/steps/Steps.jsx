@@ -9,7 +9,7 @@ function Steps() {
         <section className="py-32 bg-slate-100 relative z-10" id='steps'>
             <div className="container mx-auto px-10">
                 <Title
-                    header="Designed with applicant."
+                    header="Designed with applicant"
                     description="The full monty spiffing good time no biggie cack grub fantastic."
                 />
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
