@@ -5,15 +5,14 @@ import LogoImg from '../../assets/images/logo.png';
 import { Link } from 'react-scroll';
 
 function Navbar() {
-
     return (
         <nav className='py-5'>
             <div className="container mx-auto px-10">
-                <div className="grid grid-cols-4 gap-8">
+                <div className="flex justify-between items-center gap-5">
                     <div>
                         <Image src={LogoImg} alt='Logo' />
                     </div>
-                    <div className='col-span-2 leading-8'>
+                    <div className='hidden lg:block'>
                         <ul>
                             <li className='inline-block mx-4 text-gray-700 font-semibold cursor-pointer'>
                                 <Link
